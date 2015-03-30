@@ -72,9 +72,9 @@
    "buy":{
       "header": "How to get XEM?",
       "box1": "XEM will be available at BITTREX shortly after launch",
-      "box1click": "$t(app.coming)",
+      "box1click": "$t(app.now)",
       "box2": "XEM will be available at POLONIEX shortly after launch",
-      "box2click": "$t(app.coming)",
+      "box2click": "$t(app.now)",
       "box3": "Buy XEM directly with cash",
       "box3click": "$t(app.coming)",
       "help": "Need help with purchasing XEM? $t(a.3) <span> learn more here</span></a>",
@@ -258,7 +258,7 @@
 
       "community-fundContent": "The NEM community fund can be used by anybody to do almost anything. There is only one condition: you have to convince the community of your idea and credentials. Details about the way our community voting is done will be announced soon.",
 
-      "nem-distributionContent": "NEM was 100% pre-mined and distributed to approx. 1,500 initial stakeholders.",
+      "nem-distributionContent": "8,999,999,999 XEM were distributed to 1,500 initial stakeholders and to several multi-signature secured funds for marketing, distribution to late redeemers, operational costs, development, node rewards etc.",
 
       "issue-coinsContent": "The simple answer is yes. When NEM assets become available, you will be able to issue your own coins, while still using the security and reliability that NEM provides. That is the very basis and premise of the NEM Platform. It gives us a whole lot of flexibility to issue our own coins for whatever we want to do with it.",
 

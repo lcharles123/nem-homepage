@@ -39,7 +39,7 @@
    "READ-Translators3": "Do not translate anything that starts with '$', looks like this '$t(a.1)' or this '$t(s.1)'",
 
    "app": {
-      "now": "这里获得NEM",
+      "now": "这里获得XEM",
       "coming": "即将上线",
       "tut": "教程",
       "ninth": "9",
@@ -77,9 +77,9 @@
    "buy":{
       "header": "如何获取XEM？",
       "box1": "正式发布后，XEM将很快可在BITTREX交易",
-      "box1click": "$t(app.coming)",
+      "box1click": "$t(app.now)",
       "box2": "正式发布后，XEM将很快可在POLONIEX交易",
-      "box2click": "$t(app.coming)",
+      "box2click": "$t(app.now)",
       "box3": "直接使用现金购买XEM",
       "box3click": "$t(app.coming)",
       "help": "购买XEM需要更多帮助？ $t(a.3) <span> 这里了解更多</span></a>",

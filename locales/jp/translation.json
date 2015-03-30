@@ -3,7 +3,7 @@
 
    "a": {
       "i": "<i class=\"icon-down-open-big\"></i>",
-      "1": "<a href=\"faq.html#strong-passContent\">",
+      "1": "<a href=\"http://blog.nem.io/windows-mac-installation-guide/\">",
       "3": "<a href=\"comingSoon.html\">",
       "5": "<a href=\"#OS-supportContent\">",
       "6": "<a href=\"#how-harvestContent\">",
@@ -42,6 +42,7 @@
       "now": "GET XEM HERE",
       "coming": "COMING SOON",
       "tut": "tutorial",
+      "tenth": "10",
       "ninth": "9",
       "eighth": "8",
       "seventh": "7",
@@ -71,9 +72,9 @@
    "buy":{
       "header": "How to get XEM?",
       "box1": "XEM will be available at BITTREX shortly after launch",
-      "box1click": "$t(app.coming)",
+      "box1click": "$t(app.now)",
       "box2": "XEM will be available at POLONIEX shortly after launch",
-      "box2click": "$t(app.coming)",
+      "box2click": "$t(app.now)",
       "box3": "Buy XEM directly with cash",
       "box3click": "$t(app.coming)",
       "help": "Need help with purchasing XEM? $t(a.3) <span> learn more here</span></a>",
@@ -99,11 +100,11 @@
       "articles6": "",
 
       "newsletters": "Newsletter",
-      "newsletters1": "Newsletter $t(app.ninth)",
-      "newsletters2": "Newsletter $t(app.eighth)",
-      "newsletters3": "Newsletter $t(app.seventh)",
-      "newsletters4": "Newsletter $t(app.sixth)",
-      "newsletters5": "Newsletter $t(app.fifth)",
+      "newsletters1": "Newsletter $t(app.tenth)",
+      "newsletters2": "Newsletter $t(app.ninth)",
+      "newsletters3": "Newsletter $t(app.eighth)",
+      "newsletters4": "Newsletter $t(app.seventh)",
+      "newsletters5": "Newsletter $t(app.sixth)",
       "newsletters6": "Archives"
    },
    "faqs":{
@@ -119,7 +120,6 @@
 
          "get-started": "getting started",
          "OS-support": "Which operating systems are supported?",
-         "browser-bit": "How do I check my browser bit version?",
          "install-java": "How do I install Java?",
          "get-wallet": "How do I get a NEM wallet?",
          "strong-pass": "What is your definition of a strong password?",
@@ -164,21 +164,15 @@
 
       "OS-supportContent": "With 64BIT Java as runtime enviroment, it is possible to run the NEM software on all the popular operating systems that support Java. These include Windows, Mac OSX, and Linux.",
 
-      "bitIntro": "If you need to install Java, then the first step is to check if your browser is 32-bit or 64-bit. Note: that there is a difference between having a 64-bit operating system, and a 64-bit browser.",
-      "bitChrome": "In Chrome, type <span>chrome://chrome</span> in your search bar, you will see the version #, and at the end of the line you will see bit #. either 32-bit or 64-bit.",
-      "bitFirefox": "In Firefox, type <span>about:</span> in your browser. You will see a line that starts with Build-Identifier, if in that line you see:  x86_64, then you are using a 64-bit browser. If you see i686, you are using a 32 bit browser. If you are using Windows, then you are using a 32-bit version of Firefox. Currently there is no 64-bit version of Firefox for Windows",
-      "bitOpera": "In Opera , type <span>opera:about</span> in your browser. Under Browser identification, you will see x86_64 for 64-bit, or you will see i686 for 32-bit",
-      "bitIE": "In Internet Explorer, it can be difficult to tell which version you are using, you can find some clues $t(a.ieBitVer) HERE</a>, however, you should take this as a sign that you should be using one of the browsers mentioned above instead.",
-
       "javaHeader": "Installing Java",
-      "javaText": "Check your java version $t(a.javaCheck)HERE</a>. If you are using Java Version 8, update 25 or above, you are ready to install the NEM client.<br>Remember, when selecting the Java version make sure to pick 32-bit or 64-bit, depending on your browser. Your CPU or OS bit version does NOT matter. This is discussed in $t(a.5)Checking Browser Bit Version</a>",
+      "javaText": "Check your java version $t(a.javaCheck)HERE</a>. If you are using Java Version 8, update 25 or above, you are ready to install the NEM client.",
 
       "javaWindowsHead": "Installing Java - Windows",
-      "javaWindowsVideo": "Here is a video $t(app.tut) on how to install Java 8 on Windows 8, although the instructions are for Java 7, they are identical to the instructions for Java 8. When selecting the Java version make sure to pick 32-bit or 64-bit, depending on your browser, which was discussed in $t(a.5) Checking Browser Bit Version</a>",
+      "javaWindowsVideo": "Here is a video $t(app.tut) on how to install Java 8 on Windows 8, although the instructions are for Java 7, they are identical to the instructions for Java 8.",
       "javaWindowsMan": "There is also a wikihow entry on installing Java 8 $t(a.javaWindowsM)HERE</a>",
 
       "javaMacHead": "Installing Java - Mac OSX",
-      "javaMacVideo": "Here is a video $t(app.tut) on how to install Java on Mac OSX. When selecting the Java version make sure to pick 32-bit or 64-bit, depending on your browser, which was discussed in $t(a.5)Checking Browser Bit Version</a>",
+      "javaMacVideo": "Here is a video $t(app.tut) on how to install Java on Mac OSX.",
       "javaMacMan": "Also the Java website has a good Mac OSX install $t(app.tut), that can be found $t(a.javaMacM)HERE</a>",
 
       "javaLinuxHead": "Installing Java - Linux",
@@ -190,7 +184,7 @@
       "strong-passContent": "This is rather subjective and it depends on the user. A reasonably long string in excess of 12 characters that are randomly chosen, have no correlation, and consist of letters, numbers, and symbols should be adequate for most cases.",
 
       "install-nem-java": "Java 8 is required to run the NEM software, so please make sure you have the latest Java 8 installed on your computer. See Videos above for install instructions.",
-      "install-nem-1":  "Download the Installer for Windows or Mac at $t(a.nemNinjaInstaller) but please note that the installer only works if you have Java 64-bit installed.",
+      "install-nem-1":  "Download the Installer for Windows or Mac at $t(a.nemNinjaInstaller).",
       "install-nem-2": "To install:",
       "install-nem-3": "Download and unzip the file from $t(a.nemNinjaInstaller)",
       "install-nem-4": "Run the extracted setup file and follow the instructions. (On Mac you might need to right click on the setup file and then click open).",
@@ -237,9 +231,9 @@
 
       "multisigContent": "When an account is set up as a multi-user account (a.k.a. multisig), payments can only be sent if a previously defined amount of people sign the transaction. This can be useful for example if funds should not be in the control of a single person.",
 
-      "whats-harvest-1": "Harvesting is a process whereby the nodes will validate a block of data to be hashed and put onto the block chain. Once put onto the block chain, it becomes an immutable and irreversible record unless there is a conflict, in which case, there will be some automatic arbitration and the block chain is readjusted to correct itself automatically.",
-      "whats-harvest-2": "This block of data is a set of transactions that occur withing an approximate time frame of about 1 minute. In other words, harvesting occurs at about once every minute. The process of hashing data and putting them onto the block requires the machine to do some work. It is a random process that depends on a few factors so that only one account in the entire network is given the right to harvest once every minute.",
-      "whats-harvest-3": "That account will be given a reward for hashing that block of data. The reward depends on the amount of transaction fee that have been accumulated in that one block of data.",
+      "whats-harvest-1": "Harvesting is a process whereby a node will calculate blocks and add them to the blockchain.",
+      "whats-harvest-2": "A block contains all transactions that were sent in the last minute. In other words, a block is calculated every minute. With the help of the proof-of-importance algorithm it is decided which node is allowed to calculate a block and can keep all included transaction fees.",
+      "whats-harvest-3": "",
 
       "how-harvestContent": "Log into your wallet and click \"Start local harvesting\". <br><br>Requirement: The user account needs a vested balance of at least 10,000 XEM.",
 
@@ -264,7 +258,7 @@
 
       "community-fundContent": "The NEM community fund can be used by anybody to do almost anything. There is only one condition: you have to convince the community of your idea and credentials. Details about the way our community voting is done will be announced soon.",
 
-      "nem-distributionContent": "NEM was 100% pre-mined and distributed to approx. 1,500 initial stakeholders.",
+      "nem-distributionContent": "8,999,999,999 XEM were distributed to 1,500 initial stakeholders and to several multi-signature secured funds for marketing, distribution to late redeemers, operational costs, development, node rewards etc.",
 
       "issue-coinsContent": "The simple answer is yes. When NEM assets become available, you will be able to issue your own coins, while still using the security and reliability that NEM provides. That is the very basis and premise of the NEM Platform. It gives us a whole lot of flexibility to issue our own coins for whatever we want to do with it.",
 
