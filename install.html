@@ -98,13 +98,13 @@
       <div class="parallax parallax4" gumby-parallax=".7">
          <div class="overflowHide">
             <div class="headingArchive">
-<!-- <div id="jsonp-results">
+<div id="jsonp-results">
 
 </div>
 <div id="images">
 
 </div>
-<pre id="results"></pre> -->
+<pre id="results"></pre>
 
             </div>
 </div>
@@ -260,6 +260,25 @@ $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?
       if ( i == 0 ) return false;
     });
   });</script>
+
+  <script>
+  $.ajax({
+  //JSONP API
+  url: "http://bob.nem.ninja/version_p.js?callback=jsonpcallback&stable=0.6.27",
+  //the name of the callback function
+  jsonp: "jsonpcallback",
+  //tell jQuery to expect JSONP
+  dataType: "jsonp",
+  //tell YQL what we want and that we want JSON
+  data: {
+    id: "123"
+  },
+  //work with the response
+  success: function(data) {
+    console.log(data); //formatted JSON data
+  }
+});
+  </script>
 
   <script>
   function wfs() {

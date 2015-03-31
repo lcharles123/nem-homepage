@@ -69,7 +69,7 @@
    "buy":{
       "header": "Miten voin hankkia XEM:iä?",
       "box1": "XEM tulee olemaan Bittrexin valikoimassa pian julkaisun jälkeen",
-      "box1click": "$t(app.now)",
+      "box1click": "$t(app.coming)",
       "box2": "XEM tulee olemaan POLONIEX:n valikoimassa pian julkaisun jälkeen",
       "box2click": "$t(app.now)",
       "box3": "Osta XEM:iä suoraan rahalla",
