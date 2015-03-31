@@ -186,6 +186,17 @@ nav.fixed{
 i.icon-down-open-big{
    margin: 0;
 }
+#modal1{
+   position: absolute;
+   right: 0;
+   padding: 10px 30px;
+   margin: 25px;
+   @include border-radius(6px);
+   background-color: $greenLite;
+}
+#modal1 a{
+   color: $white;
+}
 .headline{
    text-align: inherit;
    margin-top: 30%;
