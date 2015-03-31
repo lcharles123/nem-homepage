@@ -212,6 +212,11 @@ $.i18n.init({
 		$('#install-helpHeader').text($.t('faqs.nav.install-help'));
 		$("#install-help-1").i18n();
 		$("#install-help-2").i18n();
+		$("#install-help-3").i18n();
+		$("#install-help-4").i18n();
+		$("#install-help-5").i18n();
+
+
 
 		$('#run-nodeHeader').text($.t('faqs.nav.run-node'));
 		$("#run-node-1").i18n();
@@ -225,13 +230,6 @@ $.i18n.init({
 
 		$('#strong-passHeader').text($.t('faqs.nav.strong-pass'));
 		$("#strong-passContent").i18n();
-
-		$('#browser-bitHeader').text($.t('faqs.nav.browser-bit'));
-		$('#bitIntro').text($.t('faqs.bitIntro'));
-		$('#bitInstructions li:nth-child(1)').i18n();
-		$('#bitInstructions li:nth-child(2)').i18n();
-		$('#bitInstructions li:nth-child(3)').i18n();
-		$('#bitInstructions li:nth-child(4)').i18n();
 
 		$('#install-javaHeader').text($.t('faqs.nav.install-java'));
 		$('#javaText').i18n();
@@ -257,20 +255,8 @@ $.i18n.init({
 		$('#install-nem-alone-5').i18n();
 
 		$('#open-portHeader').text($.t('faqs.nav.open-port'));
-		$("#open-port-1").text($.t('faqs.open-port-1'));
-		$("#open-port-2").i18n();
-		$("#open-port-3").i18n();
-		$("#open-port-4").text($.t('faqs.open-port-4'));
-		$("#open-port-output-1").text($.t('faqs.open-port-output-1'));
-		$("#open-port-output-2").text($.t('faqs.open-port-output-2'));
-		$("#open-port-output-3").text($.t('faqs.open-port-output-3'));
-		$("#open-port-output-4").text($.t('faqs.open-port-output-4'));
-		$("#open-port-output-5").text($.t('faqs.open-port-output-5'));
-		$("#open-port-5").i18n();
-		$("#open-port-6").i18n();
-		$("#open-port-7").text($.t('faqs.open-port-7'));
 		$("#open-port-8").i18n();
-		$("#open-port-9").text($.t('faqs.open-port-9'));
+		$("#open-port-9").i18n();
 		$("#open-port-10").i18n();
 		$("#open-port-11").i18n();
 
