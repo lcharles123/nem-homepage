@@ -240,22 +240,10 @@
 
       "how-harvestContent": "Kirjaudu sisään lompakkoosi ja klikkaa kohtaa \"Start local harvesting\". <br><br>Requirement: The user account needs a vested balance of at least 10,000 XEM.",
 
-      "open-port-1": "Voit avata portin 7890 kirjautumalla sisään palomuuriisi. Avaa portti 7890 port forwarding -kohdassa ja kohdista se siihen ip-osoitteeseen, missä NIS on käynnissä. On suositeltavaa, että ip-osoitteesi LAN-verkossa olisi muuttumaton, sillä jos ip-osoitteesi muuttuu, NCC ei enää pysty yhdistämään NIS:iin. Googlesta voit löytää apua muuttumattoman ip-osoitteen luomiseen. Lyhyesti sanottuna, sinun täytyy antaa ip-osoite verkkosovittimelle. Sinun täytyy myös antaa DNS-osoite, joka on yleensä reitittimesi ip-osoite LAN-verkossa.",
-      "open-port-2": "Windowsissa voit tarkistaa päätteesi IP-osoitteen kirjoittamalla komentoriville komennon <span>ipconfig</span>",
-      "open-port-3": "Jos käytät Mac:ia, avaa Pääte ja kirjoita <span>ifconfig -a</span>",
-      "open-port-4": "Näkyviin pitäisi tulla suurinpiirtein samanlainen teksti:",
-      "open-port-output-1": "Connection-specific DNS Suffix . : Home",
-      "open-port-output-2": "Link-local IPv6 Address . . . . . : fc80::4d2f:af58:28ca:a1b6%4",
-      "open-port-output-3": "IPv4 Address. . . . . . . . . . . : 192.168.0.115",
-      "open-port-output-4": "Subnet Mask . . . . . . . . . . . : 255.255.255.0",
-      "open-port-output-5": "Default Gateway . . . . . . . . . : 192.168.0.1",
-      "open-port-5": "Jos käytät Windowsia ja olet IPv4:ssä (mikä on todennäköisintä), avaa portti 7890 tuon ip-osoitteen kohdalta (ja kohdista liikenne sinne) reitittimestäsi ja tallenna muutokset. Macissa löydät ip-osoitteesi todennäköisimmin kohdasta <span>inet</span>.",
-      "open-port-6": "Jos sinulla on käytössä dynaaminen ip-osoite, mikä on todennäköisintä, sinun täytyy tehdä hieman enemmän työtä jos haluat yhdistää NIS:iin ulkopuolelta. Toivoisimme, että dynamic dns on sinulle tuttu, ja että olet asentanut sen sille koneelle, missä NIS on myös käynnissä. Aloitusohjeena mene sivulle $t(a.noIp)no-ip.com</a> ja rekisteröi itsellesi tunnus. Tämän jälkeen lataa $t(a.noIpWin)the DUC</a> Windowsille (Jos käytät Mac:ia, paina $t(a.noIpMac)TÄSTÄ</a>, ja jos käytät Linuxia, paina $t(a.noIpLinux)TÄSTÄ</a>) ja asenna se sille koneelle, missä NIS on käynnissä. Lue ohje konfiguroinnista $t(a.noIpConfig)TÄÄLTÄ</a>",
-      "open-port-7": "Ohjeen tarkkaan lukemalla sinun pitäisi pystyä yhdistämään NIS:iin LAN-verkkosi ulkopuolelta.",
-      "open-port-8": "Lopuksi mene NCC:n asetuksiin ja kirjoita NIS:n domain name ip-osoitteen sijasta. Sen pitäisi olla suurinpiirtein tällainen <span>xxx.ddns.net</span>, tämä on hostname, jonka olet konfiguroinut DUC:ssa. Jos löydät reitittimesi asetuksista kohdan \"loopback in the port forwarding\", laita rasti tähän ruutuun. Tämä mahdollistaa sen, että dynamic dns voi loopbackata NIS:iin milloin tahansa kun yhdistät osoitteeseen <span>xxx.ddns.net</span> LAN-verkostasi.",
-      "open-port-9": "Lisätietoja reitittimistä ja niiden asetuksista voit löytää NEM:n keskustelualueelta:",
-      "open-port-10": "Easy $t(a.easyConfig)configuration guide</a>.",
-      "open-port-11": "Multiple modem $t(a.multiConfig)configuration guide</a>.",
+      "open-port-8": "Our easy $t(a.easyConfig)configuration guide</a>.",
+      "open-port-9": "Guide from $t(a.easyConfig2)WikiHow</a>.",
+      "open-port-10": "",
+      "open-port-11": "",
 
       "xem-existContent": "XEM:iä on olemassa yhteensä 8,999,999,999.",
 

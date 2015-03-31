@@ -171,7 +171,7 @@ $.i18n.init({
 		$('#whats-poiContent').text($.t('faqs.whats-poiContent'));
 
 		$('#nem-indepthHeader').text($.t('faqs.nav.nem-indepth'));
-		$("#nem-indepth-1").i18n();
+		$("#nem-indepth-4").i18n();
 		$("#nem-indepth-2").i18n();
 		$("#nem-indepth-3").i18n();
 

@@ -251,7 +251,7 @@
 
       "issue-coinsContent": "The simple answer is yes. When NEM assets become available, you will be able to issue your own coins, while still using the security and reliability that NEM provides. That is the very basis and premise of the NEM Platform. It gives us a whole lot of flexibility to issue our own coins for whatever we want to do with it.",
 
-      "nem-indepth-1": "You can read one of our many blog posts at the $t(a.nemBlog)",
+      "nem-indepth-4": "You can read one of our many blog posts at the $t(a.nemBlog)",
       "nem-indepth-2": "The NCC source code is available at $t(a.nccSource)",
       "nem-indepth-3": "NEM $t(a.nisApi) resource"
 

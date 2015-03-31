@@ -235,22 +235,10 @@
 
       "how-harvestContent": "Log into your wallet and click \"Start local harvesting\". <br><br>Requirement: The user account needs a vested balance of at least 10,000 XEM.",
 
-      "open-port-1": "To open the Port 7890, one has to be familiar with the home router firewall. Log onto the router firewall. Under the port forwarding, open up port 7890 and have it mapped to theIP address where NIS is running. It is preferred that the NIS is running on a static address on your LAN. Otherwise if the address changes, your NCC may not be able to connect to the NIS. To configure a static address. it is best you google how to create a static address for your Terminal. In short, you will have to assign an IP address to your Network adapter. You will need to also assign a DNS address, which is normally the internal LAN IP address of your router.",
-      "open-port-2": "In windows, one can check the IP address of the terminal using the command prompt by typing <span>ipconfig</span>",
-      "open-port-3": "In Mac open terminal and type <span>ifconfig –a</span>",
-      "open-port-4": "You will see something like the following on the command prompt screen:",
-      "open-port-output-1": "Connection-specific DNS Suffix . : Home",
-      "open-port-output-2": "Link-local IPv6 Address . . . . . : fc80::4d2f:af58:28ca:a1b6%4",
-      "open-port-output-3": "IPv4 Address. . . . . . . . . . . : 192.168.0.115",
-      "open-port-output-4": "Subnet Mask . . . . . . . . . . . : 255.255.255.0",
-      "open-port-output-5": "Default Gateway . . . . . . . . . : 192.168.0.1",
-      "open-port-5": "In Windows if you are on IPv4, which is most likely, enter that IPv4 address into the router and allow or map port 7890 to that IP. Save it and then you should be fine. In Mac you will most likely find your IP listed as <span>inet</span>.",
-      "open-port-6": "However, do note that if you are on dynamic IP from your Internet Service Provider, which is more than likely, you will need to do a bit more configuration so that you can access your NIS from outside. We suggest you understand dynanic dns and have it installed on your NIS. As a starter guide, go to $t(a.noIp)no-ip.com</a> and sign up for an account. Then download $t(a.noIpWin)the DUC</a> for windows (for MAC, please go $t(a.noIpMac)HERE</a>, and for linux go $t(a.noIpLinux)HERE</a>) and have it installed where your NIS is located. Read the manual of how to configure $t(a.noIpConfig)HERE</a>",
-      "open-port-7": "Follow it closely and you should be able to access your NIS from external to your LAN.",
-      "open-port-8": "Finally, in your settings on your NCC, enter the domain name of the NIS instead of the IP address. It should be something like <span>xxx.ddns.net</span>, which is the hostname you have configured in DUC. If there is a setting in the router that says loopback in the port forwarding, tick that option. This allows dynamic dns to loop back to your NIS whenever you are calling <span>xxx.ddns.net</span> from within the LAN.",
-      "open-port-9": "More information concerning different types of internet routers and set ups can be found at the NEM forum:",
-      "open-port-10": "Easy $t(a.easyConfig)configuration guide</a>.",
-      "open-port-11": "Multiple modem $t(a.multiConfig)configuration guide</a>.",
+      "open-port-8": "Our easy $t(a.easyConfig)configuration guide</a>.",
+      "open-port-9": "Guide from $t(a.easyConfig2)WikiHow</a>.",
+      "open-port-10": "",
+      "open-port-11": "",
 
       "xem-existContent": "The total amount is 8,999,999,999 XEM.",
 
@@ -260,7 +248,7 @@
 
       "issue-coinsContent": "The simple answer is yes. When NEM assets become available, you will be able to issue your own coins, while still using the security and reliability that NEM provides. That is the very basis and premise of the NEM Platform. It gives us a whole lot of flexibility to issue our own coins for whatever we want to do with it.",
 
-      "nem-indepth-1": "You can read one of our many blog posts at the $t(a.nemBlog)",
+      "nem-indepth-4": "You can read one of our many blog posts at the $t(a.nemBlog)",
       "nem-indepth-2": "The NCC source code is available at $t(a.nccSource)",
       "nem-indepth-3": "NEM $t(a.nisApi) resource"
 

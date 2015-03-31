@@ -259,22 +259,10 @@
 
       "how-harvestContent": "登录你的钱包并点击\"开始本地收获\". <br><br>需求：用户帐号需要既定余额至少10,000 XEM。",
 
-      "open-port-1": "为了打开7890端口，需对家用路由器防火墙比较熟悉o 登录到路由器防火墙，在forwarding端口下，开启7890将其映射到NIS运行的IP地址。若NIS运行在你的局域网内的静态地址上更好。否则，当该地址改变，你的NCC无法连接到NIS。为了配置一个静态地址，最好百度一下如何为你的终端建立静态地址。简而言之，你必须给你的网络适配器分配一个IP地址。你也需要分配一个DNS地址，通常是你的路由器的内部LAN的IP地址。",
-      "open-port-2": "在windows中，用户可以使用命令<span>ipconfig</span>检查终端的IP地址。",
-      "open-port-3": "在Mac中打开终端并输入<span>ifconfig –a</span>",
-      "open-port-4": "你讲在命令行提示中看到如以下的内容：",
-      "open-port-output-1": "Connection-specific DNS Suffix . : Home",
-      "open-port-output-2": "Link-local IPv6 Address . . . . . : fc80::4d2f:af58:28ca:a1b6%4",
-      "open-port-output-3": "IPv4 Address. . . . . . . . . . . : 192.168.0.115",
-      "open-port-output-4": "Subnet Mask . . . . . . . . . . . : 255.255.255.0",
-      "open-port-output-5": "Default Gateway . . . . . . . . . : 192.168.0.1",
-      "open-port-5": "在Windows中，如果你使用IPv4，这是大多数情况，输入该IPv4地址到路由器上并允许或映射端口7890给该IP。保存配置就可以了。在Mac中，你很可能找到你的IP地址如下列出<span>inet</span>.",
-      "open-port-6": "然而，请注意，如果你从你的ISP那里获得的是动态地址，这是大多数情况，你需要做更多的配置以便你可以从外部访问你的NIS。我们建议你理解动态DNS并安装到你的NIS上。作为新手指导，请访问 $t(a.noIp)no-ip.com</a> 并注册一个帐号。然后下载 $t(a.noIpWin)DUC</a> for windows (for MAC，请去 $t(a.noIpMac)这里</a>， for linux去 $t(a.noIpLinux)这里</a>) 并将其安装到你的NIS机器上。请阅读如何配置的手册 $t(a.noIpConfig)这里</a>",
-      "open-port-7": "根据步骤做，你应该能够通过外部网络访问你局域网内的NIS。",
-      "open-port-8": "最后，在你NCC配置中，输入NIS域名代替IP地址。这看起来像<span>xxx.ddns.net</span>，这是你在DUC上配置的主机名。如果这里在路由器上有个设置，说在loopback在端口forwarding中，勾选该项。 这是为了当你在局域网内请求域名 <span>xxx.ddns.net</span>时，允许动态DNS回环到你的NIS。",
-      "open-port-9": "关于不同型号的互联网路由器及配置的更多信息可以在NEM论坛上找到：",
-      "open-port-10": "简易 $t(a.easyConfig)配置指导</a>.",
-      "open-port-11": "Multiple modem $t(a.multiConfig)配置指导</a>.",
+      "open-port-8": "Our easy $t(a.easyConfig)configuration guide</a>.",
+      "open-port-9": "Guide from $t(a.easyConfig2)WikiHow</a>.",
+      "open-port-10": "",
+      "open-port-11": "",
 
       "xem-existContent": "总量是8,999,999,999 XEM.",
 
