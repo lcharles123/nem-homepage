@@ -50,6 +50,7 @@
       "client": "SOVELLUS",
       "buy": "OSTA XEM:iä",
       "blog": "BLOGI",
+      "tutorial": "TUTORIALS",
       "faq": "UKK",
       "tech": "<span>KEHITTÄJÄ $t(a.i)</span>",
       "update": "PÄIVITYKSET",

@@ -51,6 +51,7 @@
       "client": "CLIENT",
       "buy": "BUY XEM",
       "blog": "BLOG",
+      "tutorial": "TUTORIALS",
       "faq": "FAQ's",
       "tech": "<span>DEVELOPER $t(a.i)</span>",
       "update": "UPDATES",
