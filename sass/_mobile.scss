@@ -1,13 +1,6 @@
 #modal1{
    @include respond("max-width: 767px") {
-      position: absolute;
-      top: 0;
-      right: 0%;
-      right: 30%;
-      padding: 5px 10px;
-      margin-top: 25px;
-      @include border-radius(6px);
-      background-color: $green;
+      display: none;
    }
 }
 .dropdown{
