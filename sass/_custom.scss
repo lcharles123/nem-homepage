@@ -154,7 +154,7 @@ nav{
       }
       span:hover{
          @include transition(all .6s);
-            color: $green;
+         color: $green;
          font-weight: 300;
       }
    }
@@ -1053,5 +1053,74 @@ a.anchor{display: block; position: relative; top: -200px; visibility: hidden;}
       @include transition(all .6s);
    }
 }
+//** ####################### **//
+//** INSTALL.HTML PAGE CSS START **//
+//** ####################### **//
+// .installer{
+//    text-align: center;
+//    background-color: $darkGray;
+//    padding-top: 70px;
+//    padding-bottom: 70px;
+//    .statNumbers{
+//       font-size: 300%;
+//       margin-bottom: 20px;
+//       color: $green;
+//       font-weight: 300;
+//    }
+//    .statWords{
+//       font-size: $norm;
+//       color: $white;
+//    }
+//    .statInfo{
+//       margin-top: 0;
+//    }
+// }
+#install{
+   a{
+      @include transition(all 1s);
+   }
+   a:hover{
+      color: $greenLite !important;
+      @include transition(all .6s);
+      @include transition-timing-function(ease-out);
+      @include transition-delay(0s);
+   }
+}
+.installer{
+   text-align: center;
+   img{
+      max-height: 100px;
+   }
+   h2{
+      margin-top: 80px;
+   }
+}
+.borderClient{
+   min-height: 100px;
+   padding: 2%;
+   margin-top: 10px;
+   background-color: $white;
+}
+#install hr{
+   width: 20%;
+   margin: 0 auto;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+.clientLarge{
+   font-size: $large;
+}
+.clientMed{
+   font-size: $med;
+}
+.sigSmall{
+   font-size: $small;
+   font-size: 101%;
+   margin-top: 20px;
+}
+
+
+
+
 
 @import '_mobile.scss';
